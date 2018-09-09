@@ -1,0 +1,11 @@
+<!--pages/scanCode/scanCode.wxml-->
+<view class="container">
+  <view class="password-title">开锁密码</view>
+  <view class="password-content">{{password}}</view>
+  <text> 请使用密码解锁，{{time}}s后开始计费
+  </text>
+  <view class='tips-acction'>车辆有问题？
+  <text class='tip-herf' bindtap = 'bindtap'>回首页去车辆报账</text>
+  </view>
+  
+</view>
